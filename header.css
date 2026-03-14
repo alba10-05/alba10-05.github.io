@@ -1,0 +1,154 @@
+ header {
+     width: 100%;
+     height: 40px;
+     background-color: #353333;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+ }
+
+ .Titulo {
+     color: white;
+ }
+
+ .Logo {
+     display: flex;
+     align-items: center;
+ }
+
+ .Logo img {
+     padding: 5px 10px;
+     height: 40px;
+ }
+
+ .Subtitulo {
+     color: rgb(200, 94, 49);
+     padding: 5px;
+     font-size: 20px;
+ }
+
+
+
+ .menu ul {
+     display: flex;
+     font-size: 15px;
+     list-style: none;
+ }
+
+ .menu a {
+     color: white;
+     padding: 20px;
+ }
+
+ #icon {
+     color: orange;
+     padding-right: 5px;
+ }
+
+ .Registro #icon:hover {
+     color: white;
+ }
+
+
+ .Registro ul {
+     display: flex;
+     list-style-type: none;
+     padding-right: 20px;
+     gap: 10px;
+     flex-wrap: wrap;
+ }
+
+ .Registro a {
+     padding: 10px;
+     padding-left: 2px;
+     color: rgb(206, 131, 32);
+     font-size: 12px;
+ }
+
+ .Registro li {
+     border: 1.5px solid rgb(206, 131, 32);
+     padding: 6px 5px;
+     border-radius: 3px;
+     transition: all 1s ease;
+ }
+
+.Registro .regis{
+    background-color: white;
+
+}
+
+ .Registro li:hover {
+     transition: all 0.5s ease;
+     background-color: rgb(197, 118, 0);
+
+ }
+
+
+ .Registro ul .login:hover {
+
+    a{
+         color: white;
+     }
+
+    #icon{
+         color: white;
+     }
+ }
+
+  .Registro ul .regis:hover {
+    a{
+         color: rgb(255, 255, 255);
+     }
+
+    #icon{
+         color: white;
+     }
+ }
+
+ .menu a {
+     color: white;
+     text-decoration: none;
+     transition: all 1s ease;
+ }
+
+ .menu li a:hover {
+     background-color: white;
+     color: rgb(206, 131, 32);
+     transition: all 0.5s ease;
+ }
+
+
+@media (max-width:900px){
+
+    .Registro{
+        display: none;
+    }
+
+    header{
+        justify-content: space-around;
+    }
+
+}
+
+@media (max-width:600px){
+
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .Logo{
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    .menu ul{
+        justify-content: center;
+    }
+
+     .menu li a{
+     padding-top: 10px;
+ }
+
+}

@@ -1,0 +1,185 @@
+
+
+#Nosotros h1{
+    margin: 10px;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    padding: 30px;
+    border-top: 2px solid gray;
+    text-shadow: 1px 1px 5px black;
+    font-size: 40px;
+}
+
+.contenidoNosotros{
+    display: flex;
+    gap:20px;
+}
+
+.contenidoNosotros .texto{
+    padding-top: 20px;
+}
+
+.contenidoNosotros .texto .logo{
+    display: flex;
+    padding-left: 0px;
+}
+
+.contenidoNosotros .texto h2{
+padding: 0px;
+margin: 0px;
+font-size: 30px;
+} 
+
+.texto .logo h2{
+    padding-top: 10px;
+}
+
+.Tit {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.Sub {
+    color: rgb(200, 94, 49);
+    font-size: 25px;
+    
+}
+
+.contenidoNosotros .fondo{
+    
+    width: 500px;
+    height: 400px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.text1{
+    font-weight: bolder;
+    padding-bottom: 0px;
+    font-size: 12px;
+}
+
+.text2{
+    color: gray;
+    font-weight: bolder;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.redesNosotros{
+  display: flex;
+  padding-top: 30px;
+  width: 30px;
+  height: 30px;
+  gap: 30px;
+  margin: 0 auto;
+  justify-content: center;
+
+}
+
+.redesNosotros img{
+    filter: grayscale(100%);
+    border-radius: 50%;
+    border: none;
+}
+
+.redesNosotros img:hover{
+    filter: grayscale(0%);
+    border-radius: 50%; 
+    animation: redes 3s linear infinite;
+}
+
+
+
+
+
+.redesNosotros img:hover{
+    filter: grayscale(0%);
+    border-radius: 50%;
+    
+}
+
+.redesNosotros .face:hover{
+    animation: redesface 2s linear infinite;
+}
+
+
+@keyframes redesface {
+    0%{
+        box-shadow: 0 0 0 0 blue 0.2;
+        
+    }
+
+    100%{
+        box-shadow: 0 0 0 20px blue;
+        
+    }
+}
+
+
+.redesNosotros .insta:hover{
+    animation: redesinsta 1s linear infinite;
+}
+
+
+@keyframes redesinsta {
+    0%{
+        box-shadow: 0 0 0 0 rgb(255, 0, 166) 0.2;
+        
+    }
+
+    100%{
+        box-shadow: 0 0 0 20px rgb(255, 0, 204);
+        
+    }
+}
+
+.redesNosotros .twi:hover{
+    animation: redestwi 1s linear infinite;
+}
+
+
+@keyframes redestwi {
+    0%{
+        box-shadow: 0 0 0 0 rgb(0, 242, 255) 0.2;
+        
+    }
+
+    100%{
+        box-shadow: 0 0 0 20px rgb(0, 238, 255);
+        
+    }
+}
+
+
+@media (max-width:900px) {
+
+    .contenidoNosotros {
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    .contenidoNosotros .fondo{
+        width: 105%;
+        padding-left: 20px;
+        height: 400px;
+    }
+
+    .texto{
+        padding-left: 20px;
+    }
+
+    .redesNosotros{
+        padding-bottom: 30px;
+    }
+
+    
+
+    
+
+
+}

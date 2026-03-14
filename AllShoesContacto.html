@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="generico.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="contacto.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!-------------------------------HEADER-------------------------->
+
+    <header>
+        <div class="Logo">
+            <img src="images/Logo.png" alt="">
+            <h1 class="Titulo">ALL</h1><span class="Subtitulo">SHOES</span>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="AllShoes.html">INICIO</a></li>
+                <li><a href="AllShoesTienda.html">TIENDA</a></li>
+                <li><a href="AllShoesNosotros.html">NOSOTROS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <nav class="Registro">
+            <ul>
+                <li class="login"><i id="icon" class="fa-solid fa-user"></i><a href="">Login</a></li>
+                <li class="regis"><i id="icon" class="fa-solid fa-user-plus"></i><a href=""><span>Register</span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-------------------------------CONTACTO-------------------------->
+
+
+    <div id="contacto">
+        <div class="titulo">
+            <h1>CONTACTO</h1>
+        </div>
+        <div class="contenidoContacto">
+            <div class="texto">
+
+                <div class="informacion">
+                    <form action="send.php">
+                        <p class="nombre">
+                            <input type="text" name="nombre" id="" autocomplete="off" placeholder="Nombre" minlength="2"
+                                required pattern="[A-Za-z]*" title="Debe contener al menos 2 carácteres">
+                        </p>
+
+                        <p class="email">
+                            <input type="email" name="correo" id="" placeholder="E-Mail(direccions@gmail.com)" required
+                                title="Incluye un signo @ en la dirección de correo electronico. La direccion a no incluye el signo @">
+                        </p>
+                        <p class="tel">
+                            <input type="tel" name="telefono" id="" placeholder="Telefono(XXX XXX XXX)" minlength="9"
+                                required pattern="[]" title="Debe contener 9 dígitos sin espacio">
+                        </p>
+                        <p>
+                            <select name="" id="Tema">
+                                <option value="" selected="selected" hidden> TEMA </option>
+                                <option value="">Quejas</option>
+                                <option value="">Opiniones</option>
+                                <option value="">Reclamaciones</option>
+                                <option value="">informacion</option>
+                            </select>
+                        </p>
+                        <p class="mensaje">
+                            <textarea name="mensaje" id="" placeholder="Mensaje" required></textarea>
+                        </p>
+
+
+                        <div class="condiciones">
+                            <input type="checkbox" name="" id="" required
+                                title="Selecciona esta casilla de verificacion si quieres continuar">
+                            Aceptar <a href="pdf/condiciones.pdf">Condiciones</a>
+                        </div>
+
+                        <div class="botonEnviar">
+                            <button type="submit"> <i id="EnviarIcono" class="fa-solid fa-paper-plane"></i>
+                                Enviar</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="duda">
+                    <h2>¿TIENES ALGUNA DUDA?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio perferendis
+                        quisquam expedita, deserunt cupiditate est consequatur veritatis porro mollitia ipsum,
+                        repudiandae aspernatur magni architecto eius modi non quos necessitatibus totam?
+                    </p>
+
+                    <div class="contactos">
+                        <div class="email">
+                            <h2>E-Mail</h2>
+                            <div class="linkEmail">
+                                <a href=""><i class="fa-solid fa-envelope"></i>info@allshoes.es</a>
+                            </div>
+                            <h2>Redes Sociales</h2>
+                        </div>
+                        <div class="redesContacto">
+                            <div class="centro">
+                                <img src="images/Logo.png" alt="">
+                            </div>
+                            <div class="apps">
+                                <div class="face">
+                                    <img src="images/nosotros/facebook-icon.png" alt="">
+                                </div>
+                                <div class="ins">
+                                    <img src="images/nosotros/instagram-logo.png" alt="">
+                                </div>
+                                <div class="twi">
+                                    <img src="images/nosotros/twitter-icon.png" alt="">
+                                </div>
+                                <div class="tele">
+                                    <img src="images/telegram.png" alt="">
+                                </div>
+                                <div class="whats">
+                                    <img src="images/WhatsApp_icon.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------FOOTER-------------------------->
+
+    <footer>
+        <div class="Compañia">
+            <h1>Compañia</h1>
+            <div class="contenido">
+                <a href=""><p>Nosotros</p></a>
+                <a href=""><p>Nuestros Servicios</p></a>
+                <a href=""><p>Politica Privacidad</p></a>
+                <a href=""><p>Afiliate</p></a>
+            </div>
+        </div>
+        <div class="Ayuda">
+            <h1>Ayuda</h1>
+            <div class="contenido">
+                <a href=""><p>Preguntas</p></a>
+                <a href=""><p>Compras</p></a>
+                <a href=""><p>Envios</p></a>
+                <a href=""><p>Afiliate</p></a>
+                <a href=""><p>Pago</p></a>
+            </div>
+        </div>
+        <div class="Tienda">
+            <h1>Tienda</h1>
+            <div class="contenido">
+                <a href=""><p>ropa</p></a>
+                <a href=""><p>Zapatos</p></a>
+                <a href=""><p>Telefono</p></a>
+                <a href=""><p>Pantallas</p></a>
+            </div>
+        </div>
+        <div class="Siguenos">
+            <h1>Siguenos</h1>
+            <div class="contenidoS">
+                <a class="face" href=""><i id="face" class="fa-brands fa-facebook"></i></a>
+                <a class="insta" href=""><i id="insta" class="fa-brands fa-instagram"></i>
+                    <a class="twit" href=""><i id="twit" class="fa-solid fa-x"></i></a>
+                    <a class="in" href=""><i id="in" class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

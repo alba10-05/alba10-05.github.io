@@ -47,4 +47,4 @@ la visibilidad
 </P>
 
 # URL DE LA PÁGINA
-alba10-05github.io
+alba10-05.github.io
